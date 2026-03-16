@@ -2,49 +2,6 @@
 
 A full-stack task management application with role-based access control, JWT authentication, and an admin dashboard. Built with **Spring Boot 4** (Java 21) on the backend and **React 19** (TypeScript) on the frontend.
 
----
-
-## Table of Contents
-
-- [Do List](#do-list)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Tech Stack](#tech-stack)
-    - [Backend](#backend)
-    - [Frontend](#frontend)
-    - [Infrastructure](#infrastructure)
-  - [Architecture](#architecture)
-  - [Prerequisites](#prerequisites)
-    - [Docker (production / quick start)](#docker-production--quick-start)
-    - [Local development](#local-development)
-  - [Getting Started](#getting-started)
-    - [Run with Docker (recommended)](#run-with-docker-recommended)
-    - [Run Locally (development)](#run-locally-development)
-      - [1. Start the backend](#1-start-the-backend)
-      - [2. Start the frontend](#2-start-the-frontend)
-      - [Run backend with PostgreSQL locally](#run-backend-with-postgresql-locally)
-    - [Build for production](#build-for-production)
-  - [Configuration](#configuration)
-    - [Backend Profiles](#backend-profiles)
-    - [Key Backend Properties](#key-backend-properties)
-    - [Docker Environment Variables (PostgreSQL)](#docker-environment-variables-postgresql)
-  - [API Reference](#api-reference)
-    - [Authentication — `/api/auth`](#authentication--apiauth)
-    - [Tasks — `/api/tasks`](#tasks--apitasks)
-    - [Users (Admin) — `/api/users`](#users-admin--apiusers)
-  - [Authentication Flow](#authentication-flow)
-  - [Default Admin Account](#default-admin-account)
-  - [Frontend Routes](#frontend-routes)
-    - [Dashboard Features](#dashboard-features)
-    - [Admin Dashboard](#admin-dashboard)
-    - [Admin Users](#admin-users)
-  - [Project Structure](#project-structure)
-  - [API Documentation (Swagger)](#api-documentation-swagger)
-  - [H2 Console (dev only)](#h2-console-dev-only)
-  - [Testing](#testing)
-
----
-
 ## Features
 
 - **User registration & login** with JWT access/refresh token authentication
