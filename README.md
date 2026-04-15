@@ -1,6 +1,4 @@
-# Do List
-
-A full-stack task management application with role-based access control, JWT authentication, and an admin dashboard. Built with **Spring Boot 4** (Java 21) on the backend and **React 19** (TypeScript) on the frontend.
+<!-- # Do List
 
 ## Features
 
@@ -486,4 +484,4 @@ Run frontend lint:
 ```bash
 cd frontend
 npm run lint
-```
+``` -->

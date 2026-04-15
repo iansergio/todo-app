@@ -24,15 +24,15 @@ services:
     networks:
       - app-network
 
-  frontend:
-    build: ./frontend
-    container_name: react-app
-    ports:
-      - "3000:80"
-    depends_on:
-      - backend
-    networks:
-      - app-network
+  # frontend:
+  #   build: ./frontend
+  #   container_name: react-app
+  #   ports:
+  #     - "3000:80"
+  #   depends_on:
+  #     - backend
+  #   networks:
+  #     - app-network
 
 networks:
   app-network:

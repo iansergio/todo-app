@@ -21,3 +21,6 @@
 
 # Recursos gerados
 /out/
+
+# Temporary
+/react_frontend/
